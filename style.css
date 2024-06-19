@@ -374,4 +374,9 @@ img {vertical-align: middle;
         width: 90%;
         display: block;
     }
+
+    .art_insta a img{
+        margin-right: 10%;
+        margin-left: 40%;
+    }
 }
