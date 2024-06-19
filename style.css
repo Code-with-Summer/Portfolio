@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(255, 200, 255);
+    padding: 80px;
+
+}
+header .p_head{
+    padding: 10px 20% 40px 20%;
+    font-size: large;
+    text-align: center;
+}
+
+h1, h1 span{
+    font-size: 50px;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    text-align: center;
+}
+
+h1 span{
+    padding: 15px;
+    border-radius: 30px;
+}
+h1 span:hover{
+    background-color:  rgb(255, 183, 255);
+    transition: ease-in-out 0.5s;
+}
+
+.my_projects{
+    text-align: center;
+    font-family: "Merienda", cursive;
+    text-decoration: underline;
+    font-size: 35px;
+    background-color: rgb(255, 238, 241);
+    padding: 80px 80px 50px 80px ;
+    font-weight: 600;
+}
+
+.projects{
+    background-color: rgb(241, 255, 216);
+    padding: 80px 80px 50px 80px ;
+    /* display: grid; */
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.projects .title{
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+}
+.projects img{
+    width: 60%;
+    text-align: center;
+    padding: 30px 10% 30px 10%;
+}
+
+.description{
+    font-family: "Merienda", cursive;
+    margin: 0px 30px 30px 30px;
+    /* text-align: center; */
+    font-size: 18px;
+    padding-left: 8%;
+    padding-right: 10%;
+}
+
+.resume{
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;    background-color: rgb(245, 214, 245);
+}
+
+.resume span{
+    font-family: "Merienda", cursive;
+    color: purple;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.resume_pic{
+    background-color: rgb(255, 238, 241);
+    text-align: center;
+}
+.resume_pic embed{
+    margin: 10px 20% 30px 20%;
+    padding: 50px;
+    width: 60%;
+    height: 450px;
+}
+
+.virtual{
+    text-align: center;
+    padding-top: 80px;
+    background-color: rgb(236, 236, 236);
+}
+
+.virtual .para1{
+    font-family: "Merienda", cursive;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.virtual .para2{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.simul, .simulation{
+    background-color: rgb(255, 234, 237);
+}
+.simul, .certified, .partt, .artSection, .about_me, .contact .get{
+    font-family: "Merienda", cursive;
+    font-size: 30px;
+    padding: 40px;
+    text-align: center;
+}
+
+.simul_inner{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.simulation{
+    padding: 50px 200px 40px 200px;
+    font-size: 20px;
+}
+
+.simulation span{
+    font-style: italic;
+    font-family: "Merienda", cursive;
+}
+
+.simulation .des{
+    font-size: 17px;
+}
+.simulation img{
+    width: 60%;
+    margin: 20px 10% 80px 10%;
+}
+
+.virtual img, .resume_pic img{
+    width: 40%;
+    margin: 20px 10% 80px 10%;
+}
+
+.certified span{
+    text-decoration: underline;
+}
+.certificates, .partt, .part{
+    text-align: center;
+}
+.certificates p, .part p{
+    font-size: 25px;
+    padding: 50px;
+}
+.certificates img, .part img{
+    width: 50%;
+    margin: 20px 10% 80px 10%;
+}
+
+.certified, .certificates{
+    background-color: rgb(236, 236, 236);
+    font-weight: 700;
+}
+.partt{
+    padding: 50px;
+    background-color: rgb(255, 234, 237);
+}
+
+.part{
+    background-color: rgb(255, 234, 237);
+}
+
+.artSection{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 40px;
+}
+
+.artSection span{
+    font-family: "Merienda", cursive;
+    color: purple;
+    font-size: 40px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.art_insta{
+    text-align: center;
+    padding: 80px;
+    font-size: 20px;
+}
+
+.art_insta a{
+    color: purple;
+    font-family: "Merienda", cursive;
+    font-weight: 800;
+}
+
+.art_insta a img{
+    width: 70px;
+    padding: 10px;
+}
+
+.about_me{
+    font-size: 50px;
+    color: rgb(88, 2, 88);
+    font-weight: 900;
+}
+
+.about_inner{
+    padding: 80px;
+    padding-top: 30px;
+    background-color: rgb(255, 234, 255);
+}
+
+.about_inner p, .about_inner span{
+    font-family: "Merienda", cursive;
+    line-height: 31px;
+}
+
+p.pa{
+    margin-bottom: 30px;
+}
+p.last{
+    display: inline;
+    background-color: rgb(232, 0, 232, 0.2);
+    padding: 3px;
+    border-radius: 10px;
+    
+}
+
+.contact{
+    padding-top: 80px;
+    padding-bottom: 10px;
+    background-color:  rgb(236, 236, 236);;
+    ;
+}
+
+.contact .get{
+    border-radius: 60px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.links{
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 100px;
+    background-color:  rgb(236, 236, 236);;
+    ;
+}
+
+.links img{
+    width: 60px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.links img:hover{
+    transform: scale(1.3);
+    transition: ease-in-out 0.3s;
+}
+
+
+
+/* Slideshow */
+
+.mySlides {display: none}
+img {vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  /* user-select: none; */
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #000000;
+  background-color: rgb(238, 238, 238, 0.5);
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+@media (max-width: 600px){
+    p, img{
+        width: 90%;
+        display: block;
+    }
+}
