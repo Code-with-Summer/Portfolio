@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* color: #3e3b36; */
+    color: #b6b3ae;
+}
+
+
+*:hover{
+    color: #f6f6f5;
+    transition: color 0.2s ease-out;
+}
+
+html,
+body {
+    width: 100%;
+    /* background: #e8e8de; */
+    background-color: #323232;
+}
+
+.my_projects{
+    font-size: 20px;
+}
+.hr {
+    width: 100%;
+    height: 1px;
+    background: #3e3b36;
+}
+
+.white-space {
+    width: 100%;
+    height: 70px;
+}
+
+.projects {
+    background-color: #323232;
+    padding: 80px 80px 50px 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 2em;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hr {
+    width: 100%;
+    height: 1px;
+    background: #3e3b36;
+}
+
+.reveal {
+    width: 500px;
+    height: 140px;
+    position: relative;
+    overflow: hidden;
+}
+
+.reveal div {
+    position: absolute;
+    line-height: 1.8em;
+}
+
+.h1 {
+    font-size: 5.4em;
+    font-weight: 400;
+}
+
+.h1 span {
+    font-style: italic;
+}
+
+.projects .title {
+    width: fit-content;
+    color: black;
+    font-weight: 400;
+    font-size: 22px;
+    transition: border-bottom 0.3s ease;
+}
+
+.projects .title:hover {
+    border-bottom: 3px solid #888888;
+}
+
+.projects img {
+    width: 60%;
+    text-align: center;
+    padding: 30px 10% 30px 10%;
+}
+
+.description {
+    margin: 0px 30px 30px 30px;
+    font-size: 18px;
+    padding-left: 8%;
+    padding-right: 10%;
+}
+
+.right {
+    width: fit-content;
+    float: left;
+    font-size: 12px;
+    transform: translateX(-100%);
+    animation: slideIn 2s ease-out forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.right p {
+    color: rgb(107, 107, 107);
+}
+
+a>img {
+    width: 18px;
+    margin-top: 15px;
+}
+
+@media(max-width: 800px) {
+    .h1 {
+        font-size: 2em;
+    }
+
+    .p {
+        font-size: 14px;
+    }
+    .project img{
+        min-width: 200px;
+    }
+    .projects, .description {
+        padding: 8px 8px 5px 8px;
+    }
+}
