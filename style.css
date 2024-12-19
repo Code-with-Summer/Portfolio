@@ -151,7 +151,15 @@ a{
     }
 }
 
-
+@media(max-width: 950px){
+    .responsive{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-item{
+        height: 150px;
+    }
+}
 
 
 
