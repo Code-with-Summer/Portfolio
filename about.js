@@ -43,7 +43,7 @@ const closeModal = document.getElementById('closeModal');
 const pdfViewer = document.getElementById('pdfViewer');
 
 // The URL of the PDF to display
-const pdfSrc = 'Resum.pdf';
+const pdfSrc = 'Resume.pdf';
 
 // Function to open the modal with the PDF
 openPDFLink.addEventListener('click', (event) => {
