@@ -19,13 +19,14 @@ t1.from(".hr", 1.8, {
     },
 },"-=1.5");
 
-t1.from(".reveal div", 1.8, {
+t1.from(".reveal div", 1.2, {     // ⬅️ Reduced from 1.8 to 1.2 seconds
     y: 200,
     ease: "power4.out",
     stagger: {
-        amount: 0.8,
+        amount: 0.4,              // ⬅️ Reduced stagger for quicker sequence
     },
-},"-=2");
+}, "-=2");
+
 
 t1.from(".nav-item", 1.8, {
     opacity: 0,
