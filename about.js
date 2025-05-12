@@ -19,14 +19,13 @@ t1.from(".hr", 1.8, {
     },
 },"-=1.5");
 
-t1.from(".reveal div", 1.2, {     // ⬅️ Reduced from 1.8 to 1.2 seconds
+t1.from(".reveal div", 1.2, {
     y: 200,
     ease: "power4.out",
     stagger: {
-        amount: 0.4,              // ⬅️ Reduced stagger for quicker sequence
+        amount: 0.4,
     },
 }, "-=2");
-
 
 t1.from(".nav-item", 1.8, {
     opacity: 0,
@@ -36,6 +35,7 @@ t1.from(".nav-item", 1.8, {
         amount: 0.3,
     },
 },"-=2");
+
 
 // Get references to elements
 const openPDFLink = document.getElementById('openPDFLink');
