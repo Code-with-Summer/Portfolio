@@ -163,7 +163,7 @@ div.image {
     height: 300px;
     background: url("images/port.jpeg") no-repeat 50% 50%;
     background-size: cover;
-    animation-delay: 1s;
+    animation-delay: 0.1s;
 }
 
 .right {
@@ -171,7 +171,7 @@ div.image {
     float: left;
     font-size: 12px;
     transform: translateX(-100%);
-    animation: slideIn 2s ease-out forwards;
+    animation: slideIn 1s ease-out forwards;
 }
 
 @keyframes slideIn {
