@@ -5,7 +5,7 @@ t1.from(".intro > div", 1.8, {
     opacity: 0,
     y: -100,
     ease: "power4.out",
-    delay: 1,
+    delay: 0,
     stagger: {
         amount: 0.3,
     },
