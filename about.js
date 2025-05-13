@@ -1,58 +1,61 @@
 const t1 = gsap.timeline();
 
-// Animate name, Back to Home, and image together
-t1.from([".reveal div", ".right", ".image"], 1.2, {
-    opacity: 0,
-    y: 100,
-    ease: "power4.out",
-    stagger: {
-        amount: 0.4,
-    },
-});
-
-// Animate horizontal rules
-t1.from(".hr", 1.2, {
-    width: 0,
-    ease: "power4.out",
-}, "-=0.8");
-
-// Animate nav items like Resume and Art Account
-t1.from(".nav-item", 1.2, {
-    opacity: 0,
-    y: 100,
-    ease: "power4.out",
-    stagger: {
-        amount: 0.3,
-    },
-}, "-=0.8");
-
-// Animate text/intros below
-t1.from(".intro > div", 1.2, {
+// Animate intro content
+t1.from(".intro > div", 1.8, {
     opacity: 0,
     y: -100,
     ease: "power4.out",
+    delay: 1,
     stagger: {
         amount: 0.3,
     },
-}, "-=1");
+});
 
-// Resume modal logic
+// Animate horizontal lines
+t1.from(".hr", 1.8, {
+    width: 0,
+    ease: "power4.out",
+    delay: 1,
+    stagger: {
+        amount: 0.3,
+    },
+}, "-=1.5");
+
+// Animate name, back-to-home, and image together like reveal effect
+t1.from([".reveal div", ".right", ".image"], 1.8, {
+    y: 200,
+    opacity: 0,
+    ease: "power4.out",
+    stagger: {
+        amount: 0.8,
+    },
+}, "-=2");
+
+// Animate nav items (Resume, Art account, etc.)
+t1.from(".nav-item", 1.8, {
+    opacity: 0,
+    y: 100,
+    ease: "power4.out",
+    stagger: {
+        amount: 0.3,
+    },
+}, "-=2");
+
+// ===== Resume Modal Logic =====
 const openPDFLink = document.getElementById('openPDFLink');
 const pdfModal = document.getElementById('pdfModal');
 const closeModal = document.getElementById('closeModal');
 const pdfViewer = document.getElementById('pdfViewer');
 
-// PDF file source
+// Path to your resume
 const pdfSrc = 'Resume.pdf';
 
-// Open PDF modal
 openPDFLink.addEventListener('click', (event) => {
     event.preventDefault();
     pdfModal.style.display = 'flex';
     pdfViewer.data = pdfSrc;
 });
 
-// Close modal
 closeModal.addEventListener('click', () => {
     pdfModal.style.display = 'none';
 });
